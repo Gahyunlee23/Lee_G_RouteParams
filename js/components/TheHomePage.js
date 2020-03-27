@@ -1,5 +1,11 @@
 export default {
-    props: ["user"],
+    //props: ["user"],
+
+    props: {
+        user: {
+            username: String
+        }
+    },
 
     name: "HomePage",
 

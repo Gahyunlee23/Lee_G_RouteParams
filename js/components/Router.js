@@ -7,6 +7,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
+    // delete the #, but not work sometimes.
+    mode: "history",
+
     routes
 })
 
